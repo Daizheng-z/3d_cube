@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.JmeBattleActivity">
+
+    <fragment
+        android:id="@+id/jmeFragment_b"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.example.jmeeee.View.JmeFragment"
+        ></fragment>
+
+    <Button
+        android:id="@+id/button_b_ismouseball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="观 察"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_b_stopwatch"
+        android:text="00:00:000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="60dp"
+        android:textColor="#ffffff"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
